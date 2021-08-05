@@ -18,3 +18,7 @@ Some SQL tutorials I've been creating and posting to Twitter. Just including the
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Where2.png" width="600" height="400">
 
+## Wildcards ~ %
+
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/WC-Percent.png" width="600" height="400">
+
