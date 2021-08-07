@@ -62,3 +62,16 @@ To give a new field a proper name, we use the AS keyword.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Concat.png">
 
+### Calculated Fields ~ Maths
+
+We learned we can calculate fields on-the-fly without altering database data itself
+
+One use for this is concatenation. Another is running maths operations on retrieved data
+
+* Division ( / )
+* Addition ( + )
+* Subtraction ( - )
+* Multiplication ( * )
+
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Maths.png">
+
