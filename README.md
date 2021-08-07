@@ -60,5 +60,5 @@ One example is *concatenating* columns together.
 
 To give a new field a proper name, we use the AS keyword.
 
-<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Concat.png" width="600" height="400">
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Concat.png">
 
