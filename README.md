@@ -6,6 +6,8 @@ Some SQL tutorials I've been creating and posting to Twitter :)
 
 The SELECT statement is used to retrieve table data. We only need to specify what we want to select and where we want to select it from. Simple!
 
+Note that we use FROM to specify the table we want to retrieve data from.
+
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Select.png">
 
 ### Sorting 
@@ -19,6 +21,8 @@ When retrieving data from a table, it'll generally be displayed in the order it 
 When extracting data from tables, you'll normally only want a subset of the data. Achieve this using the WHERE clause, which will filter the data.
 
 Specify WHERE after the FROM clause.
+
+Note that we've split our queries across multiple lines here, rather than just writing it all on a single line. In SQL, we don't have to worry about whitespace. It's usually good practice to split long queries across multiple lines for better readability.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Where.png">
 
