@@ -10,6 +10,8 @@ Note that we use FROM to specify the table we want to retrieve data from.
 
 Also note that below, we've used the * character. This signifies that we want to return **all** columns. This is useful when you are practicing. However, it's bad practice within a real production enviornment, and can slow things down. Rarely would we ever need to retun all columns.
 
+Additionally, pay attention to column placement when we are returning more than one column. There should be a comma between each column name, but **not** after the last one. If we were to include a comma after the last column in a SELECT statment, we would get an error.
+
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Select.png">
 
 ### Sorting 
