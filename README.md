@@ -8,11 +8,15 @@ The SELECT statement is used to retrieve table data. We only need to specify wha
 
 Note that we use FROM to specify the table we want to retrieve data from.
 
+Also note that below, we've used the * character. This signifies that we want to return **all** columns. This is useful when you are practicing. However, it's bad practice within a real production enviornment, and can slow things down. Rarely would we ever need to retun all columns.
+
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Select.png">
 
 ### Sorting 
 
 When retrieving data from a table, it'll generally be displayed in the order it appears within that table. You can explicitly sort using ORDER BY.
+
+If we want to order descendingly, we can use DESC. We can also explicity write ASC for ascending. However, as this is the default, we don't need to include it.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Sort.png">
 
@@ -52,7 +56,7 @@ Another wildcard is the underscore.
 
 This matches 1 character, differing from the % wildcard, which represents 0, 1, or more characters.
 
-Note: wildcard searches typically take longer to run, especially if wildcard is at the start of a search pattern. Consider this before using.
+Note: wildcard searches typically take longer to run, especially if wildcard is at the start of a search pattern. Consider this before using. 
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/WP-Underscore.png">
 
@@ -70,12 +74,16 @@ To give a new field a proper name, we use the AS keyword. Note that we don't act
 
 We learned we can calculate fields on-the-fly without altering database data itself
 
-One use for this is concatenation. Another is running maths operations on retrieved data
+One use for this is concatenation. Another is running maths operations on retrieved data.
+
+Here's some operators:
 
 * Division ( / )
 * Addition ( + )
 * Subtraction ( - )
 * Multiplication ( * )
+
+If we want to change the order or precedence, we can use parentheses (like we would in Maths).
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Maths.png">
 
