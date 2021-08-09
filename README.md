@@ -99,4 +99,11 @@ This can make manipulating or converting data in SQL simpler and more efficient.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Functions1.png">
 
+### Additional Info
+
+Here's just a bit more information on SQL statements!
+
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/tips.png">
+
+
 
