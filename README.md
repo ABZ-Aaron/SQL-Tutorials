@@ -75,3 +75,14 @@ One use for this is concatenation. Another is running maths operations on retrie
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Maths.png">
 
+### Functions ~ Part 1
+
+Functions are a set of instructions grouped together, used to perform a specific task. 
+
+Value(s) can be *passed* to a function, which the function then operates on.
+
+This can make manipulating or converting data in SQL simpler and more efficient.
+
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Functions1.png">
+
+
