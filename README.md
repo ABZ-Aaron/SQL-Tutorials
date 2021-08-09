@@ -62,7 +62,7 @@ In a SELECT statement, we can *calculate* new columns on-the-fly without alterin
 
 One example is *concatenating* columns together.
 
-To give a new field a proper name, we use the AS keyword.
+To give a new field a proper name, we use the AS keyword. Note that we don't actually have to include the AS keyword. The query would work exactly the same if we omitted this. However it's good practice to include it, for readability.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Concat.png">
 
