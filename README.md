@@ -12,7 +12,7 @@ In the below example, you'll notice we've used the * character. This signifies t
 
 Additionally, pay attention to column placement when we are returning more than one column. There should be a comma between each column name, but **not** after the last one. If we were to include a comma after the last column in a SELECT statment, we would get an error.
 
-<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Select.png">
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Select.png">
 
 ### Sorting 
 
@@ -20,7 +20,7 @@ When retrieving data from a table, it will generally be displayed in the order i
 
 If we want to order descendingly, we can use DESC. We can also explicity write ASC for ascending. However, as this is the default, we don't really need to include it.
 
-<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Sort.png">
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Sort.png">
 
 ### Where Clause
 
@@ -30,7 +30,7 @@ Specify WHERE after the FROM clause.
 
 Note that we've split our queries across multiple lines here, rather than just writing it all on a single line. In SQL, we don't have to worry about whitespace. It's usually good practice to split long queries across multiple lines for better readability.
 
-<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Where.png">
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Where.png">
 
 ### Where Clause ~ Part 2
 
@@ -45,7 +45,7 @@ But... we can control evaluation order using parentheses to explicitly group ope
 
 Note how we use parenthese to change the order of evaluation, and thus change the final result. We can do the same with AND and OR in SQL.
 
-<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Where2.png">
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Where2.png">
 
 ### Wildcards ~ Percent ( % )
 
@@ -55,7 +55,7 @@ To do this, we use the LIKE operator within a WHERE clause.
 
 Let's look at the % wildcard.
 
-<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/WC-Percent.png">
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/WC-Percent.png">
 
 ### Wildcards ~ Underscore ( _ )
 
@@ -65,7 +65,7 @@ This matches 1 character, differing from the % wildcard, which represents 0, 1, 
 
 Note: wildcard searches typically take longer to run, especially if wildcard is at the start of a search pattern. Consider this before using. 
 
-<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/WP-Underscore.png">
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/WP-Underscore.png">
 
 ### Calculated Fields ~ Concatenation
 
@@ -75,7 +75,7 @@ One example is *concatenating* columns together.
 
 To give a new field a proper name, we use the AS keyword. Note that we don't actually have to include the AS keyword. The query would work exactly the same if we omitted this. However it's good practice to include it, for readability.
 
-<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Concat.png">
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Concat.png">
 
 ### Calculated Fields ~ Maths
 
@@ -92,7 +92,7 @@ Here are some operators:
 
 If we want to change the order or precedence, we can use parentheses (like we would in Maths).
 
-<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Maths.png">
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Maths.png">
 
 ### Functions ~ Part 1
 
@@ -102,13 +102,13 @@ Value(s) can be *passed* to a function, which the function then operates on.
 
 This can make manipulating or converting data in SQL simpler and more efficient.
 
-<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Functions1.png">
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Functions1.png">
 
 ### Additional Info
 
 Here's just a bit more information on SQL statements!
 
-<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/tips.png">
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/tips.png">
 
 
 
