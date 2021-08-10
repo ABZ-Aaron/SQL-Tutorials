@@ -4,11 +4,11 @@ Some SQL tutorials I've been creating and posting to Twitter :)
 
 ### Select Statment
 
-The SELECT statement is used to retrieve table data. We only need to specify what we want to select and where we want to select it from. Simple!
+The **SELECT** statement is used to retrieve table data. We only need to specify what we want to select and where we want to select it from. Simple!
 
-Note that we use FROM to specify the table we want to retrieve data from.
+Note that we use **FROM** to specify the table we wish to retrieve data from.
 
-Also note that below, we've used the * character. This signifies that we want to return **all** columns. This is useful when you are practicing. However, it's bad practice within a real production enviornment, and can slow things down. Rarely would we ever need to retun all columns.
+In the below example, you'll notice we've used the * character. This signifies that we want to return **all** columns in the table. This is useful when you are practicing; however, it's bad practice within a real production enviornment, and can slow things down. Rarely would we ever need to retun all columns.
 
 Additionally, pay attention to column placement when we are returning more than one column. There should be a comma between each column name, but **not** after the last one. If we were to include a comma after the last column in a SELECT statment, we would get an error.
 
@@ -16,9 +16,9 @@ Additionally, pay attention to column placement when we are returning more than 
 
 ### Sorting 
 
-When retrieving data from a table, it'll generally be displayed in the order it appears within that table. You can explicitly sort using ORDER BY.
+When retrieving data from a table, it will generally be displayed in the order it appears within that table; therefore it's not a good idea to rely on data being in any specific when retrieving it. Instead, you can explicitly sort using ORDER BY.
 
-If we want to order descendingly, we can use DESC. We can also explicity write ASC for ascending. However, as this is the default, we don't need to include it.
+If we want to order descendingly, we can use DESC. We can also explicity write ASC for ascending. However, as this is the default, we don't really need to include it.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Sort.png">
 
@@ -38,7 +38,12 @@ We can combine WHERE clauses with AND or OR.
 
 When combining these operators, AND is processed before OR. 
 
-But... we can control evaluation order using parentheses to explicitly group operators, a bit like what we do in Maths!
+But... we can control evaluation order using parentheses to explicitly group operators, a bit like what we do in Maths! For example:
+
+* 5 + 2 x 3 = 11
+* (5 + 2) x 3 = 21
+
+Note how we use parenthese to change the order of evaluation, and thus change the final result. We can do the same with AND and OR in SQL.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/Where2.png">
 
@@ -78,7 +83,7 @@ We learned we can calculate fields on-the-fly without altering database data its
 
 One use for this is concatenation. Another is running maths operations on retrieved data.
 
-Here's some operators:
+Here are some operators:
 
 * Division ( / )
 * Addition ( + )
