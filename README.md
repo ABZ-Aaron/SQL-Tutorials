@@ -16,7 +16,7 @@ Additionally, pay attention to column placement when we are returning more than 
 
 ### Sorting 
 
-When retrieving data from a table, it will generally be displayed in the order it appears within that table; therefore it's not a good idea to rely on data being in any specific when retrieving it. Instead, you can explicitly sort using ORDER BY.
+When retrieving data from a table, it will generally be displayed in the order it appears within that table; therefore it's not a good idea to rely on data being in any specific order when retrieving it. Instead, you can explicitly sort using ORDER BY.
 
 If we want to order descendingly, we can use DESC. We can also explicity write ASC for ascending. However, as this is the default, we don't really need to include it.
 
