@@ -110,5 +110,21 @@ Here's just a bit more information on SQL statements!
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/tips.png">
 
+### Aggregate Functions
+
+Aggregate functions run calculations on a set of rows to return a single value. These are:
+
+1. MAX
+1. MIN
+1. AVG
+1. SUM
+1. COUNT
+
+These all ignore NULL (blank) values except for `COUNT(*)` which counts the number of table rows.
+
+We can use DISTINCT to include only unique values. Notice how it changes the average returned when we use this.
+
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/aggregate.png">
+
 
 
