@@ -4,29 +4,29 @@ Some SQL tutorials I've been creating and posting to Twitter :)
 
 ### Select Statment
 
-The **SELECT** statement is used to retrieve table data. We only need to specify what we want to select and where we want to select it from. Simple!
+The `SELECT` statement is used to retrieve table data. We only need to specify what we want to select and where we want to select it from. Simple!
 
-Note that we use **FROM** to specify the table we wish to retrieve data from.
+Note that we use `FROM` to specify the table we wish to retrieve data from.
 
-In the below example, you'll notice we've used the * character. This signifies that we want to return **all** columns in the table. This is useful when you are practicing; however, it's bad practice within a real production enviornment, and can slow things down. Rarely would we ever need to retun all columns.
+In the below example, you'll notice we've used the * character. This signifies that we want to return all columns in the table. This is useful when you are practicing; however, it's bad practice within a real production enviornment, and can slow things down. Rarely would we ever need to retun all columns.
 
-Additionally, pay attention to column placement when we are returning more than one column. There should be a comma between each column name, but **not** after the last one. If we were to include a comma after the last column in a SELECT statment, we would get an error.
+Additionally, pay attention to column placement when we are returning more than one column. There should be a comma between each column name, but not after the last one. If we were to include a comma after the last column in a SELECT statment, we would get an error.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Select.png">
 
 ### Sorting 
 
-When retrieving data from a table, it will generally be displayed in the order it appears within that table; therefore it's not a good idea to rely on data being in any specific order when retrieving it. Instead, you can explicitly sort using ORDER BY.
+When retrieving data from a table, it will generally be displayed in the order it appears within that table; therefore it's not a good idea to rely on data being in any specific order when retrieving it. Instead, you can explicitly sort using `ORDER BY`.
 
-If we want to order descendingly, we can use DESC. We can also explicity write ASC for ascending. However, as this is the default, we don't really need to include it.
+If we want to order descendingly, we can use `DESC`. We can also explicity write `ASC` for ascending. However, as this is the default, we don't really need to include it.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Sort.png">
 
 ### Where Clause
 
-When extracting data from tables, you'll normally only want a subset of the data. Achieve this using the WHERE clause, which will filter the data.
+When extracting data from tables, you'll normally only want a subset of the data. Achieve this using the `WHERE` clause, which will filter the data.
 
-Specify WHERE after the FROM clause.
+Specify `WHERE` after the `FROM` clause.
 
 Note that we've split our queries across multiple lines here, rather than just writing it all on a single line. In SQL, we don't have to worry about whitespace. It's usually good practice to split long queries across multiple lines for better readability.
 
@@ -34,16 +34,16 @@ Note that we've split our queries across multiple lines here, rather than just w
 
 ### Where Clause ~ Part 2
 
-We can combine WHERE clauses with AND or OR.
+We can combine `WHERE` clauses with `AND` or `OR`.
 
-When combining these operators, AND is processed before OR. 
+When combining these operators, `AND` is processed before `OR`. 
 
 But... we can control evaluation order using parentheses to explicitly group operators, a bit like what we do in Maths! For example:
 
 * 5 + 2 x 3 = 11
 * (5 + 2) x 3 = 21
 
-Note how we use parenthese to change the order of evaluation, and thus change the final result. We can do the same with AND and OR in SQL.
+Note how we use parenthese to change the order of evaluation, and thus change the final result. We can do the same with `AND` and `OR` in SQL.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Where2.png">
 
@@ -51,7 +51,7 @@ Note how we use parenthese to change the order of evaluation, and thus change th
 
 Wildcards are symbols used to substitute characters within a text string. Adding these to a search condition allows us to filter data matching a pattern. 
  
-To do this, we use the LIKE operator within a WHERE clause.
+To do this, we use the `LIKE` operator within a `WHERE` clause.
 
 Let's look at the % wildcard.
 
@@ -69,11 +69,11 @@ Note: wildcard searches typically take longer to run, especially if wildcard is 
 
 ### Calculated Fields ~ Concatenation
 
-In a SELECT statement, we can *calculate* new columns on-the-fly without altering the database data itself.
+In a `SELECT` statement, we can *calculate* new columns on-the-fly without altering the database data itself.
 
 One example is *concatenating* columns together.
 
-To give a new field a proper name, we use the AS keyword. Note that we don't actually have to include the AS keyword. The query would work exactly the same if we omitted this. However it's good practice to include it, for readability.
+To give a new field a proper name, we use the `AS` keyword. Note that we don't actually have to include the `AS` keyword. The query would work exactly the same if we omitted this. However it's good practice to include it, for readability.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Concat.png">
 
@@ -98,7 +98,7 @@ If we want to change the order or precedence, we can use parentheses (like we wo
 
 Functions are a set of instructions grouped together, used to perform a specific task. 
 
-Value(s) can be *passed* to a function, which the function then operates on.
+Value(s) can be passed to a function, which the function then operates on.
 
 This can make manipulating or converting data in SQL simpler and more efficient.
 
@@ -109,6 +109,26 @@ This can make manipulating or converting data in SQL simpler and more efficient.
 Here's just a bit more information on SQL statements!
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/tips.png">
+
+### Aggregate Functions
+
+Aggregate functions run calculations on a set of rows to return a single value. These are:
+
+1. `MAX`
+1. `MIN`
+1. `AVG`
+1. `SUM`
+1. `COUNT`
+
+These all ignore `NULL` (blank) values except for `COUNT(*)` which counts the number of table rows.
+
+We can use `DISTINCT` to include only unique values. Notice how it changes the average returned when we use this.
+
+Note that where you see `DISTINCT` below, you could replace this with `ALL` to perform the calculation on all rows. However, we would never do this, as `ALL` is actually the default. 
+
+So for example, we could rewrite one of the other lines, like `SUM(price) AS sum_price`, as `SUM(ALL price) AS sum_price` instead. This would do exactly the same thing.
+
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/aggregate.png">
 
 
 
