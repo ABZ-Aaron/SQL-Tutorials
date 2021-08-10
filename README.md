@@ -126,7 +126,7 @@ We can use `DISTINCT` to include only unique values. Notice how it changes the a
 
 Note that where you see `DISTINCT` below, you could replace this with `ALL` to perform the calculation on all rows. However, we would never do this, as `ALL` is actually the default. 
 
-So for example, we could write one of the other lines, like `SUM(price) AS sum_price` as `SUM(ALL price) AS sum_price` and it would do exactly the same thing as it's doing.
+So for example, we could rewrite one of the other lines, like `SUM(price) AS sum_price`, as `SUM(ALL price) AS sum_price` instead. This would do exactly the same thing.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/aggregate.png">
 
