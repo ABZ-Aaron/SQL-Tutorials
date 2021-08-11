@@ -128,7 +128,7 @@ Note that where you see `DISTINCT` below, you could replace this with `ALL` to p
 
 So for example, we could rewrite one of the other lines, like `SUM(price) AS sum_price`, as `SUM(ALL price) AS sum_price` instead. This would do exactly the same thing.
 
-<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/aggregate.png">
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/aggregate.png">
 
 
 
