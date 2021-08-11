@@ -130,5 +130,19 @@ So for example, we could rewrite one of the other lines, like `SUM(price) AS sum
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/aggregate.png">
 
+### Grouping Data
+
+The `GROUP BY` clause creates a separate group for each unique value in a column or set of columns.
+
+We can then perform aggregate functions like `SUM` or `AVG` on each individual group.
+
+Note that, if a grouping column contains `NULL`, this will be classed as a group. Also, `GROUP BY` can list multiple columns to group by (each of these must be a retrieved column under the `SELECT` statement except for the aggregate function). Similarly, every column listed in the `SELECT` statement must be included in the `GROUP BY` clause; again, with the exception of the aggregate function(s).
+
+Finally, `GROUP BY` comes after the `FROM` clause and `WHERE` clauses, but before the `ORDER BY` clause.
+
+It's worth playing around with this on your own so you can better understand what's going on.
+
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/group_by_1.png">
+
 
 
