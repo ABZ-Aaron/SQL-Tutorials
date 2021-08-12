@@ -2,15 +2,11 @@
 
 Some SQL tutorials I've been creating and posting to Twitter :)
 
-## Intro
-
-Before diving into some of the tutorials below, let's quickly cover some basics 😄
+Here we we'll learn database basics, before diving into some tutorials.
 
 ## What is a database?
 
-This is essentially a container storing organised data electronically, usually controlled by something called a database management system (DBMS for short).
-
-These can store more data (and are more secure) than a text file or spreadsheet.
+This is essentially a container storing organised data electronically, usually controlled by something called a database management system (DBMS for short). These can store more data (and are more secure) than a text file or spreadsheet.
 
 ## What is a DBMS?
 
@@ -84,9 +80,12 @@ A good place to get started is with SQLite. Follow the below steps to get set-up
 4. Under the *Database Structure* tab, you can see a list of tables
 5. Under the *Execute SQL* tab, you can run SQL queries
 
-Play around with this as you read through some of these tutorials.
+You can view the database diagram illustrating table relationships here:
+https://www.sqlitetutorial.net/sqlite-sample-database/
 
-You can start by simply typing a basic command and running it to see that output:
+Play around with this database as you read through some of these tutorials.
+
+You can start by simply typing a basic command and running it to see the output:
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/db_browser.png">
 
