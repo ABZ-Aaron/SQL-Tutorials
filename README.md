@@ -10,9 +10,7 @@ This is essentially a container storing organised data electronically, usually c
 
 ## What is a DBMS?
 
-These are software packages which allow us to create, manipulate and manage our databases.
-
-You've probably heard of some before.
+These are software packages which allow us to create, manipulate and manage our databases. You've probably heard of some before.
 
 They include:
 
@@ -22,23 +20,15 @@ They include:
 
 ## What is a table?
 
-These are structured files containing data within the database.
-
-Typically, a database contains multiple tables, each composed of rows & columns.
-
-This makes data retrieval easier.
+These are structured files containing data within the database. Typically, a database contains multiple tables, each composed of rows & columns. This makes data retrieval easier.
 
 ## What are table columns & rows?
 
-Picture tables like spreadsheets. 
-
-We have columns storing a particular type of data, such as name, price, or date, with each row representing a specific record.
+Picture tables like spreadsheets. We have columns storing a particular type of data, such as name, price, or date, with each row representing a specific record.
 
 ## What is a type of data?
 
-Each column in a table has a datatype. A column called age would be a numeric datatype, as an example.
-
-Setting datatypes correctly can:
+Each column in a table has a datatype. A column called age would be a numeric datatype, as an example. Setting datatypes correctly can:
 
 * Restrict incorrect data being inserted
 * Help if data needs to be sorted
@@ -46,29 +36,19 @@ Setting datatypes correctly can:
 
 ## What are constraints?
 
-These are rules enforced on your data, ensuring the correct type of data is entered into a database, maintaining data integrity.
-
-For example, a UNIQUE type constraint would ensure all values in a table column remain unique.
+These are rules enforced on your data, ensuring the correct type of data is entered into a database, maintaining data integrity. For example, a UNIQUE type constraint would ensure all values in a table column remain unique.
 
 ## What is a primary key?
 
-This is a column or combo of columns designed to uniquely identify each table row. Without a primary key, we won't always be able to uniquely identify a table record.
-
-An example might be a 'user_ID' column, whereby each record has its own unique ID.
+This is a column or combo of columns designed to uniquely identify each table row. Without a primary key, we won't always be able to uniquely identify a table record. An example might be a 'user_ID' column, whereby each record has its own unique ID.
 
 ## What is a foreign key?
 
-This is a column or combo of columns in a table that refers to the primary key of another table.
-
-This establishes a link between tables, allowing us to join them together if required. 
+This is a column or combo of columns in a table that refers to the primary key of another table. This establishes a link between tables, allowing us to join them together if required. 
 
 ## What is SQL?
 
-SQL, or Structured Query Language, is what we use to communicate with databases.
-
-We use this to remove data, add data, read data, join tables, create tables, and so on.
-
-It's easy to learn, and almost all DBMS support SQL. So it's worthwhile learning this!
+SQL, or Structured Query Language, is what we use to communicate with databases. We use this to remove data, add data, read data, join tables, create tables, and so on. It's easy to learn, and almost all DBMS support SQL. So it's worthwhile learning this!
 
 ## Getting Started
 
@@ -83,9 +63,7 @@ A good place to get started is with SQLite. Follow the below steps to get set-up
 You can view the database diagram illustrating table relationships here:
 https://www.sqlitetutorial.net/sqlite-sample-database/
 
-Play around with this database as you read through some of these tutorials.
-
-You can start by simply typing a basic command and running it to see the output:
+Play around with this database as you read through some of these tutorials. You can start by simply typing a basic command and running it to see the output:
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/db_browser.png">
 
