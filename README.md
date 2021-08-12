@@ -2,11 +2,81 @@
 
 Some SQL tutorials I've been creating and posting to Twitter :)
 
-### Intro
+## Intro
 
-SQL is the language we typically use to communicate with databases. With SQL, we can create databases, delete databases, delete tables, read from tables, write to tables, and so on. It's simple to learn, so feel free to follow along with these tutorials :)
+Before diving into some of the tutorials below, let's quickly cover some basics 😄
 
-A good place to get started is with SQLite. This is an example of a database management system (DBMS) which is something used to manipulate and generally manage databases. Follow the below steps to get set-up:
+## What is a database?
+
+This is essentially a container storing organised data electronically, usually controlled by something called a database management system (DBMS for short).
+
+These can store more data (and are more secure) than a text file or spreadsheet.
+
+## What is a DBMS?
+
+These are software packages which allow us to create, manipulate and manage our databases.
+
+You've probably heard of some before.
+
+They include:
+
+* MySQL
+* SQLite
+* PostgreSQL
+
+## What is a table?
+
+These are structured files containing data within the database.
+
+Typically, a database contains multiple tables, each composed of rows & columns.
+
+This makes data retrieval easier.
+
+## What are table columns & rows?
+
+Picture tables like spreadsheets. 
+
+We have columns storing a particular type of data, such as name, price, or date, with each row representing a specific record.
+
+## What is a type of data?
+
+Each column in a table has a datatype. A column called age would be a numeric datatype, as an example.
+
+Setting datatypes correctly can:
+
+* Restrict incorrect data being inserted
+* Help if data needs to be sorted
+* Help optimise memory usage
+
+## What are constraints?
+
+These are rules enforced on your data, ensuring the correct type of data is entered into a database, maintaining data integrity.
+
+For example, a UNIQUE type constraint would ensure all values in a table column remain unique.
+
+## What is a primary key?
+
+This is a column or combo of columns designed to uniquely identify each table row. Without a primary key, we won't always be able to uniquely identify a table record.
+
+An example might be a 'user_ID' column, whereby each record has its own unique ID.
+
+## What is a foreign key?
+
+This is a column or combo of columns in a table that refers to the primary key of another table.
+
+This establishes a link between tables, allowing us to join them together if required. 
+
+## What is SQL?
+
+SQL, or Structured Query Language, is what we use to communicate with databases.
+
+We use this to remove data, add data, read data, join tables, create tables, and so on.
+
+It's easy to learn, and almost all DBMS support SQL. So it's worthwhile learning this!
+
+## Getting Started
+
+A good place to get started is with SQLite. Follow the below steps to get set-up:
 
 1. Download **DB Browser for SQLite** from https://sqlitebrowser.org
 2. Download the [Chinook sample database](chinook.db)
@@ -16,7 +86,7 @@ A good place to get started is with SQLite. This is an example of a database man
 
 Play around with this as you read through some of these tutorials.
 
-### Select Statment
+## Select Statment
 
 The `SELECT` statement is used to retrieve table data. We only need to specify what we want to select and where we want to select it from. Simple!
 
@@ -28,7 +98,7 @@ Additionally, pay attention to column placement when we are returning more than 
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Select.png">
 
-### Sorting 
+## Sorting 
 
 When retrieving data from a table, it will generally be displayed in the order it appears within that table; therefore it's not a good idea to rely on data being in any specific order when retrieving it. Instead, you can explicitly sort using `ORDER BY`.
 
@@ -36,7 +106,7 @@ If we want to order descendingly, we can use `DESC`. We can also explicity write
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Sort.png">
 
-### Where Clause
+## Where Clause
 
 When extracting data from tables, you'll normally only want a subset of the data. Achieve this using the `WHERE` clause, which will filter the data.
 
@@ -46,7 +116,7 @@ Note that we've split our queries across multiple lines here, rather than just w
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Where.png">
 
-### Where Clause ~ Part 2
+## Where Clause ~ Part 2
 
 We can combine `WHERE` clauses with `AND` or `OR`.
 
@@ -61,7 +131,7 @@ Note how we use parenthese to change the order of evaluation, and thus change th
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Where2.png">
 
-### Wildcards ~ Percent ( % )
+## Wildcards ~ Percent ( % )
 
 Wildcards are symbols used to substitute characters within a text string. Adding these to a search condition allows us to filter data matching a pattern. 
  
@@ -71,7 +141,7 @@ Let's look at the % wildcard.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/WC-Percent.png">
 
-### Wildcards ~ Underscore ( _ )
+## Wildcards ~ Underscore ( _ )
 
 Another wildcard is the underscore.
 
@@ -81,7 +151,7 @@ Note: wildcard searches typically take longer to run, especially if wildcard is 
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/WP-Underscore.png">
 
-### Calculated Fields ~ Concatenation
+## Calculated Fields ~ Concatenation
 
 In a `SELECT` statement, we can *calculate* new columns on-the-fly without altering the database data itself.
 
@@ -91,7 +161,7 @@ To give a new field a proper name, we use the `AS` keyword. Note that we don't a
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Concat.png">
 
-### Calculated Fields ~ Maths
+## Calculated Fields ~ Maths
 
 We learned we can calculate fields on-the-fly without altering database data itself
 
@@ -108,7 +178,7 @@ If we want to change the order or precedence, we can use parentheses (like we wo
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Maths.png">
 
-### Functions ~ Part 1
+## Functions ~ Part 1
 
 Functions are a set of instructions grouped together, used to perform a specific task. 
 
@@ -118,13 +188,13 @@ This can make manipulating or converting data in SQL simpler and more efficient.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Functions1.png">
 
-### Additional Info
+## Additional Info
 
 Here's just a bit more information on SQL statements!
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/tips.png">
 
-### Aggregate Functions
+## Aggregate Functions
 
 Aggregate functions run calculations on a set of rows to return a single value. These are:
 
@@ -144,7 +214,7 @@ So for example, we could rewrite one of the other lines, like `SUM(price) AS sum
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/aggregate.png">
 
-### Grouping Data
+## Grouping Data
 
 The `GROUP BY` clause creates a separate group for each unique value in a column or set of columns.
 
