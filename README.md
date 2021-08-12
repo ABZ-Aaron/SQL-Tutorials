@@ -2,7 +2,7 @@
 
 Some SQL tutorials I've been creating and posting to Twitter :)
 
-Here we we'll learn database basics, before diving into some tutorials.
+Here we'll learn database basics, before diving into some tutorials.
 
 ## What is a database?
 
