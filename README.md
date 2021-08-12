@@ -60,7 +60,10 @@ A good place to get started is with SQLite. Follow the below steps to get set-up
 4. Under the *Database Structure* tab, you can see a list of tables
 5. Under the *Execute SQL* tab, you can run SQL queries
 
-You can view the database diagram illustrating table relationships here:
+Alternatively, you can use the SQLite command line program, rather than DB Browser:
+https://www.sqlite.org/cli.html
+
+You can view the database diagram illustrating table relationships for the Chinook database here:
 https://www.sqlitetutorial.net/sqlite-sample-database/
 
 Play around with this database as you read through some of these tutorials. You can start by simply typing a basic command and running it to see the output:
