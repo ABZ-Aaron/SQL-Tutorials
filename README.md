@@ -86,6 +86,10 @@ A good place to get started is with SQLite. Follow the below steps to get set-up
 
 Play around with this as you read through some of these tutorials.
 
+You can start by simply typing a basic command and running it to see that output:
+
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/db_browser.png">
+
 ## Select Statment
 
 The `SELECT` statement is used to retrieve table data. We only need to specify what we want to select and where we want to select it from. Simple!
