@@ -2,6 +2,18 @@
 
 Some SQL tutorials I've been creating and posting to Twitter :)
 
+### Intro
+
+SQL is the language we typically use to query databases. With SQL, we can create databases, delete databases, delete tables, read from tables, write to tables, and so on. It's simple to learn, so feel free to follow along with these tutorials :)
+
+A good place to get started is with SQLite. This is an example of a database management system (DBMS) which is something used to manipulate and generally manage databases. Follow the below steps to get set-up:
+
+1. Download **DB Browser for SQLite** from https://sqlitebrowser.org
+2. Download the [Chinook sample database](docs/chinook.db)
+3. Open up DB Browser for SQLite and open the database
+4. Under the Database Structure tab, you can see a list of tables
+5. Under the Execute SQL tab, you can run SQL queries
+
 ### Select Statment
 
 The `SELECT` statement is used to retrieve table data. We only need to specify what we want to select and where we want to select it from. Simple!
