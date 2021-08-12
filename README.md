@@ -9,7 +9,7 @@ SQL is the language we typically use to query databases. With SQL, we can create
 A good place to get started is with SQLite. This is an example of a database management system (DBMS) which is something used to manipulate and generally manage databases. Follow the below steps to get set-up:
 
 1. Download **DB Browser for SQLite** from https://sqlitebrowser.org
-2. Download the [Chinook sample database](docs/chinook.db)
+2. Download the [Chinook sample database](chinook.db)
 3. Open up DB Browser for SQLite and open the database
 4. Under the Database Structure tab, you can see a list of tables
 5. Under the Execute SQL tab, you can run SQL queries
