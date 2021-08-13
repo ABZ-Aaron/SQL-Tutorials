@@ -228,5 +228,15 @@ It's worth playing around with this on your own so you can better understand wha
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/group_by_1.png">
 
+## Filtering Grouped Data
+
+We use HAVING to filter grouped data. This is very similar to the WHERE clause.
+
+Only difference is WHERE filters specific rows (filters before data is grouped) and HAVING filters groups (filters after data is grouped)
+
+Note: We can use both clauses in one statement. So for example, we might want to filter our data using WHERE, then group the data, and filter those groups usin HAVING.
+
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Having.png">
+
 
 
