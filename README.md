@@ -1,4 +1,4 @@
-# SQL Tutorials
+# SQL Tutorials (In progress...)
 
 Some SQL tutorials I've been creating and posting to Twitter :)
 
