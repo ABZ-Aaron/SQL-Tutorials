@@ -222,5 +222,15 @@ Note: We can use both clauses in one statement. So for example, we might want to
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Having.png">
 
+## Subqueries
+
+A *subquery* is an SQL query embedded within another query, often used within `WHERE` clause `IN` operators
+
+Subqueries are processed starting with the innermost `SELECT` statement
+
+Note: although powerful, subqueries can negatively impact performance. There are other ways we can perform the type of data retrieval we are conducting here (more on that in a later tutorial).
+
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/subqueries.png">
+
 
 
