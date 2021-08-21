@@ -1,4 +1,4 @@
-# SQL Tutorials
+# SQL Tutorials (In progress...)
 
 Some SQL tutorials I've been creating and posting to Twitter :)
 
@@ -78,7 +78,7 @@ Note that we use `FROM` to specify the table we wish to retrieve data from.
 
 In the below example, you'll notice we've used the * character. This signifies that we want to return all columns in the table. This is useful when you are practicing; however, it's bad practice within a real production enviornment, and can slow things down. Rarely would we ever need to retun all columns.
 
-Additionally, pay attention to column placement when we are returning more than one column. There should be a comma between each column name, but not after the last one. If we were to include a comma after the last column in a SELECT statment, we would get an error.
+Additionally, pay attention to column placement when we are returning more than one column. There should be a comma between each column name, but not after the last one. If we were to include a comma after the last column in a `SELECT` statment, we would get an error.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Select.png">
 
@@ -214,11 +214,11 @@ It's worth playing around with this on your own so you can better understand wha
 
 ## Filtering Grouped Data
 
-We use HAVING to filter grouped data. This is very similar to the WHERE clause.
+We use `HAVING` to filter grouped data. This is very similar to the `WHERE` clause.
 
-Only difference is WHERE filters specific rows (filters before data is grouped) and HAVING filters groups (filters after data is grouped)
+Only difference is `WHERE` filters specific rows (filters before data is grouped) and `HAVING` filters groups (filters after data is grouped)
 
-Note: We can use both clauses in one statement. So for example, we might want to filter our data using WHERE, then group the data, and filter those groups usin HAVING.
+Note: We can use both clauses in one statement. So for example, we might want to filter our data using `WHERE`, then group the data, and filter those groups usin `HAVING`.
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/Having.png">
 
