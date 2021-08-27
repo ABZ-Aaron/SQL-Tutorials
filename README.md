@@ -1,8 +1,8 @@
-# SQL Tutorials (In progress...)
+# SQL Tutorials
 
 Some SQL tutorials I've been creating and posting to Twitter :)
 
-Here we'll learn database basics, before diving into some tutorials.
+Below I've written a brief intro to databases. Following from that, there's a series of small tutorials.
 
 ## What is a database?
 
