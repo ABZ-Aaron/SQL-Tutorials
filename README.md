@@ -232,5 +232,13 @@ Note: although powerful, subqueries can negatively impact performance. There are
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/subqueries.png">
 
+## Subqueries ~ Part 2
+
+Not always the best option, but we can use *subqueries* to create calculated fields (columns created on-the-fly) within a `SELECT` statement. 
+
+Note: Because both tables below contain an "em_id" column, we've used syntax "table.column" to remove ambiguity & ensure correct results (i.e. Employees.em_id and Expenses.em_id).
+
+<img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/subqueries-CF.png">
+
 
 
