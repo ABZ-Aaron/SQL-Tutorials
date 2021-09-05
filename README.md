@@ -1,8 +1,12 @@
 # SQL Tutorials
 
-Some SQL tutorials I've been creating and posting to Twitter :)
+Hello!
 
-Below I've written a brief intro to databases. Following from that, there's a series of small tutorials.
+Here are some SQL tutorials I've been creating and posting to Twitter :)
+
+I've first written a brief intro to databases. Following from that, there's a series of small SQL tutorials.
+
+If you find any of this useful, consider supporting me at [BuyMeACoffee](https://www.buymeacoffee.com/AbzAaron) :)
 
 ## What is a database?
 
