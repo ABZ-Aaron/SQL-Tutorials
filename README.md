@@ -4,9 +4,9 @@ Hello!
 
 Here are some SQL tutorials I've been creating and posting to Twitter.
 
-I've first written a brief intro to databases. Following from that, there's a series of small SQL tutorials.
+If you find any of this useful, consider supporting me at [BuyMeACoffee](https://www.buymeacoffee.com/AbzAaron)!
 
-If you find any of this useful, consider supporting me at [BuyMeACoffee](https://www.buymeacoffee.com/AbzAaron) :-D
+Here is a quick overview of databases.
 
 ## What is a database?
 
@@ -244,5 +244,6 @@ Note: Because both tables below contain an "em_id" column, we've used syntax "ta
 
 <img src="https://github.com/ABZ-Aaron/SQL-Tutorials/blob/master/images/subqueries-CF.png">
 
+## Joins
 
-
+In progress...
