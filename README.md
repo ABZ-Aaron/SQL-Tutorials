@@ -4,20 +4,20 @@ Welcome!
 
 Here are some SQL tutorials I've been creating and posting to Twitter.
 
-# Support Me
+## Support Me
 
 If you find any of this useful, consider supporting me at:
 
 <a href="https://www.buymeacoffee.com/AbzAaron" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="40" width="180"></a>
 
-# Let's Connect
+## Let's Connect
 
 You can also follow me at:
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abzaaron/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/AbzAaron)
 
-# Let's Begin!
+## Let's Begin!
 
 Let's get started! We'll begin with a quick overview of databases.
 
