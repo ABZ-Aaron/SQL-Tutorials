@@ -2,7 +2,7 @@
 
 Welcome!
 
-Here are some SQL tutorials I've been creating and posting to Twitter.
+Here are some [SQL tutorials](https://www.scaler.com/topics/sql/) I've been creating and posting to Twitter.
 
 ## Support Me
 
